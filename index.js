@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = () => {
-  arguments.map(arg => {
+  Array.prototype.map.call(arguments, arg => {
     switch (arg[1]) {
       case '[':
         return arg
