@@ -9,14 +9,14 @@ module.exports = (args) => {
         return arg
               .slice(1)
               .slice(0, arg.length-2)
-              .split(',')
+              .split(/\s*,\s*/)
               .map(val => {
                 let intVal = parseInt(val, 10)
                 return intVal == val ? intVal : val
               })
         break;
       case '{':
-        return util.string2Object(arg)
+        return util.JSONparse(arg)
         break;
       default:
         return arg
