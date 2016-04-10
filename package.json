@@ -1,6 +1,6 @@
 {
   "name": "parseargv",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "utility for parsing node-style cli arguments",
   "main": "index.js",
   "scripts": {
