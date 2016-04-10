@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node test/test.js",
-    "prerelease": "npm version ",
-    "release": "git push && git push --tags && npm publish;"
+    "release": "npm version ",
+    "postrelease": "git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",
