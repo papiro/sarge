@@ -4,7 +4,9 @@
   "description": "utility for parsing node-style cli arguments",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test/test.js",
+    "prerelease": "npm version ",
+    "release": "git push && git push --tags && npm publish;"
   },
   "repository": {
     "type": "git",
