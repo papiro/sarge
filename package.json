@@ -26,6 +26,9 @@
   },
   "homepage": "https://github.com/papiro/parseargv#readme",
   "devDependencies": {
-    "livitytest": "0.0.2"
+    "livitytest": "latest"
+  },
+  "dependencies": {
+    "youtil": "latest"
   }
 }
