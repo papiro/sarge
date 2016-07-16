@@ -1,0 +1,9 @@
+# Project name
+  name=sarge
+
+# Project repositories
+  primary=git@godswhim.us:sarge.git
+  secondary=git@gitlab.com:papiro/sarge.git
+  tertiary=~/backups/sarge.git
+
+# Project submodules
