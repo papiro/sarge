@@ -12,6 +12,7 @@ const str2arr = (str) => {
 }
 
 module.exports = (args) => {
+  args = args.filter(arg => arg[0] !== '/')
   let obj = {}, pair = ''
   args.forEach(arg => {
     // if previous arg was a '-a' type
@@ -34,5 +35,3 @@ module.exports = (args) => {
   })
   return obj
 }
-
-module.exports(process.argv.filter(arg => arg[0] !== '/'))
